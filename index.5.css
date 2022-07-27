@@ -1,0 +1,86 @@
+.header .navbar{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 60px;
+    background-image: url(imagnes/heart.jpg);
+}
+body, header , main{
+background-color: white;
+background-size: 100%;
+}
+#foto{
+  background-image: url(imagnes/Eugenia.png);
+  width: 1345px;
+  height: 500px;
+  z-index: 1;
+  position: absolute;
+}
+#uno{
+background-color: rgb(185, 31, 160);
+}
+#dos{
+color: white;
+}
+#tres{
+color: white;
+}
+#carouselExampleSlidesOnly{
+    width: 350px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: -5px;
+    z-index: 2;
+    position: absolute;
+}
+
+   div.cursos{
+    width:60%;
+    margin-top: 800px;
+    float:left;
+    font-size:200%;
+    text-align:justify;
+    font-family: 'Arial Narrow', Arial, sans-serif,'Franklin Gothic Medium';
+    color: white;
+    background-color:rgb(231, 110, 167);
+   }
+   div.cursos, li{
+     list-style: none ;
+   }
+
+   div.hobbies{
+    width:40%;
+    margin-top: 749px;
+    float:right;
+    font-size:200%;
+    text-align:center;
+    font-family: 'Arial Narrow', Arial, sans-serif,'Franklin Gothic Medium';
+    color: white;
+    background-color:rgb(231, 110, 167);
+   }
+ div.estudios{
+  width:100%;
+  margin-top: 0px;
+  float:left;
+  font-size:200%;
+  text-align:center;
+  font-family: 'Arial Narrow', Arial, sans-serif,'Franklin Gothic Medium';
+  color: white;
+  background-color:rgb(231, 110, 167);
+ }
+ div.presentacion{
+  z-index: 3;
+  position: absolute;
+  margin-top: 200px;
+  background-color:red;
+  color: white;
+  text-align: center;
+  width: 26%;
+  font-family:'Arial Narrow', Arial, sans-serif,'Franklin Gothic Medium';
+ }
+div.texto{
+  font-size: xx-large;
+  font-family: serif;
+  color: rgb(245, 117, 138);
+  margin-left: 450px;
+}

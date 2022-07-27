@@ -1,0 +1,219 @@
+html, body {height: 100%; width: 100%; font-size: 1rem; font-family: sans-serif; font-weight: 100;}
+.cont-slider {
+  background-color: black;
+    position: relative;
+    height: 90vh;
+    max-height: 90vh;
+    width: auto;
+    min-width: 90vw;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1000;
+}
+.slider {
+    animation: deslizante 25s ease-out 0s backwards infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500%;
+    height: 100%;
+    
+}
+.slide {
+    display: inline-block; 
+    position: relative;
+    width: 20%;
+    height: 100%;    
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;  
+}
+
+.uno {
+  background-image: url(imagnes/arg.png);
+margin-top: 50px;}
+.dos {
+  background-image: url(imagnes/cava.jpg);
+  }
+.tres {
+  background-image: url(imagnes/chams.webp);
+}
+.cuatro {
+  background-image: url(imagnes/cava.png);
+}
+.cinco {
+  background-image: url(imagnes/chan.jpeg);
+  z-index: 999;
+  position: absolute;
+  margin-top: 120px;
+}
+div.container{
+  margin-left: 0%;
+}
+.navbar{
+  background-color: black;
+}
+
+div.container-fluid{
+  margin-right: -90px;
+  margin-top: -60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#first {
+  color: rgb(223, 204, 96);
+}
+#home
+  { color: rgb(223, 204, 96);
+  }
+#two{
+  color: rgb(223, 204, 96);
+}
+#three{
+    color: rgb(223, 204, 96);
+  
+}
+@keyframes deslizante {
+  0% {left: 0%; }
+  15% {left: 0%; }
+  20% {left: -100%; }
+  35% {left: -100%; }
+  40% {left: -200%; }  
+  55% {left: -200%; }
+  60% {left: -300%; }
+  75% {left: -300%; }
+  80% {left: -400%; }
+  95% {left: -400%; }   
+  100% {left: 0; }
+}
+
+#nuestrosprogramas{
+  text-align: center;
+}
+
+#nuestros-programas .container{
+  padding: 400px 15px;
+  z-index: 1000;
+  position:relative;
+  margin-top: -300px;
+  margin-left: 100px;
+  
+}
+#nuestros-programas h2{
+  margin-top: 0;
+  font-size: 3.2em;
+}
+
+#nuestros-programas p{
+  color: black;
+}
+
+#nuestros-programas .carta{
+  background-position: center center;
+  background-size: cover;
+  padding: 20px 0px;
+  margin: 30px;
+  border-radius: 15px;
+  float: left;
+}
+.carta:first-child{
+  background-color: rgba(255, 255, 255, 0.685);
+  width: 300px;
+  height: 400px;
+  color: rgb(92, 90, 82)
+}
+
+.carta:nth-child(2){
+  background-color: rgba(255, 255, 255, 0.685);
+  width: 300px;
+  height: 400px;
+  color: rgb(92, 90, 82);
+}
+
+.carta:nth-child(3){
+  background-color: rgba(255, 255, 255, 0.685);
+  color: rgb(92, 90, 82);
+  width: 300px;
+  height: 400px;
+}
+
+main{
+    background-color: black;
+  }
+
+#imagen{
+    z-index: 999;
+    position: absolute;
+    margin-top: -1800px;
+    background-color: black;
+  }
+
+div.contened{
+  background-image: url(imagnes/food3.jpg );
+  background-size: 100%;
+  background-attachment: fixed;
+  z-index: 1000;
+  position: relative;
+  width: 1340px;
+  height: 1000px;
+  color: white;
+  }
+  div.text{
+    color: rgba(255, 255, 255, 0.822);
+    width: 250px;
+    height: 200px;
+    text-align: justify;
+    float: right;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  div.texto{
+    color: rgba(255, 255, 255, 0.822);
+    width: 250px;
+    height: 200px;
+    text-align: justify;
+    margin-left: 1060px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  div.textodos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1060px;
+    margin-top: 390px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.822);
+    width: 250px;
+    height: 200px
+  }
+div.cont{
+  background-image: url(imagnes/foo2.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  z-index: 1000;
+  position: relative;
+  width: 1340px;
+  height: 1000px;
+}
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,42 @@
+form{
+    color: black;
+        margin: 0 auto;
+        width: 290px;
+        height: 300px;
+        border-radius: 3px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        padding: 20px;
+        z-index: 1000;
+        position: relative;
+    }
+input{
+    outline: none;
+    width: 280px;
+   background-color:transparent;
+   border-color: black;
+}
+
+.field{
+    width: 280px;
+    height: 60px;
+    background-color: transparent;
+    border-color: black;
+}
+
+ body{
+    background-image: url(imagnes/formulario.mp4);
+    background-size: 100%;
+ }
+ video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  div.container{
+    margin-left: -1000px;
+    margin-top: 800px;
+  }

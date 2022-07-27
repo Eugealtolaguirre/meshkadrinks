@@ -1,0 +1,242 @@
+header, body , main {
+    background-color: white;
+}
+#navbarDropdown{
+    color: black;
+}
+div.contenedor{
+    width: 700px;
+    height: 500px;
+    margin-top: 0px;
+    border-radius: 0px;
+    background-color:peachpuff;
+}
+div.contened{
+    width: 700px;
+    height: 500px;
+    margin-top: -500px;
+    border-radius: 0px;
+    background-image: url(imagnes/frutiila.jpg);
+    background-size: 100%;
+    float: right;
+}
+div.container{
+    width: 700px;
+    height: 500px;
+    background-image: url(imagnes/lemon.jpg) ;
+    margin-left: -50px;
+}
+div.cont{
+    background-color: peachpuff;
+    background-size: 100%;
+    width: 700px;
+    height: 500px;
+    float: right;
+    margin-top: -500px;
+}
+div.conte{
+    width: 650px;
+    height: 500px;
+    background-color: peachpuff;
+}
+div.conter{
+    width: 700px;
+    height: 500px;
+    background-image: url(imagnes/orange.jpg) ;
+    float: right;
+    margin-top: -500px;
+}
+div.conten{
+    width: 700px;
+    height: 500px;
+    background-image: url(imagnes/box.jpg);
+}
+div.contene{
+    width: 700px;
+    height: 500px;
+    background-color: peachpuff;
+    float: right;
+    margin-top: -500px;
+}
+#uno, #dos, #tres, #cuatro, #cinco {
+    background-color: transparent;
+    color: black;
+}
+#uno:hover{
+    cursor: pointer;
+    color: rgb(233, 233, 176);
+}
+#dos:hover{
+    cursor: pointer;
+    color: rgb(233, 233, 176);
+}
+#tres:hover{
+    cursor: pointer;
+    color: rgb(233, 233, 176);
+}
+#cuatro:hover{
+    cursor: pointer;
+    color: rgb(233, 233, 176);
+}
+#cinco:hover{
+    cursor: pointer;
+    color: rgb(233, 233, 176);
+}
+#navbarDropdown:hover{
+    cursor: pointer;
+    color: rgb(233, 233, 176);
+}
+.header .navbar {
+    background-color: transparent;
+    opacity: 0.5;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+
+}
+    
+ul li{
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    margin-top: 0px;}
+
+#inicio{
+    margin-top: -100px;}
+
+div.accordion-item{
+    background-color: rgb(196, 67, 89);
+}
+
+.accordion-button{
+    background-color: transparent;}
+
+#aboutus,#ingredientes, #opciones{
+    margin-top: -10px;
+    background-color:peachpuff;
+}
+.accordion-button::after {
+    background-image: none !important;
+    content: "+" !important;
+    position: relative;
+    bottom: 4px;
+  }
+  div.contenedor,#unoc{
+    text-align:center;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+div.cont,p{
+    text-align:center;
+    color: rgb(179, 230, 84);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.conte, #dosc{
+    text-align:center;
+    color: rgb(230, 172, 84);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(imagnes/h.png);
+    background-size: cover;
+    
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+    color:rgb(196, 67, 89);
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #000000;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+#aviso{
+    color: black;
+}
+div.terms, p , #aviso{
+    margin-top: -10px;
+}
+#caja, li{
+    color: violet;
+    margin-top: 50px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    color: black;
+}
+#pagina{
+    color: black;
+}
